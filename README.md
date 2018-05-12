@@ -14,3 +14,4 @@ To get on the Pi:
 3) plug in yellow ethernet cable
 4) wait a few seconds
 5) open VNC viewer and double click RPi Wired
+6) config files are in the driver folder, assuming pi hasn't been altered
