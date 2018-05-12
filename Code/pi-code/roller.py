@@ -10,6 +10,6 @@ while True:
         oneshot.oneshot()
     except:
         traceback.print_exc()
-        if type(sys.exc_info()[0]) == 'exceptions.UnboundLocalError':
+        if type(sys.exc_info()[0]) == 'exeptions.UnboudLocalError':
             break
     oneshot = reload(oneshot)
